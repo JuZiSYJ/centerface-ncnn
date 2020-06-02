@@ -20,7 +20,7 @@ the sim-overall android-organization is here
 ## result
 infer time on **845** in float32 is aroud ***350ms(700x500)***, depending on the object  
 ![845-cpu](./test-img/Screenshot_2020-06-02-21-13-29-537_com.example.sy.jpg)
-![845-gpu](./test-img/Screenshot_2020-06-02-21-13-57-663_com.example.sy)
+![845-gpu](./test-img/Screenshot_2020-06-02-21-13-57-663_com.example.sy.jpg)
 
 **ncnn** is good in optimazing on float32
 
