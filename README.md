@@ -11,6 +11,13 @@ Qualcomm845
 using pretrained **centerface** ,by[star-clouds](https://github.com/Star-Clouds/CenterFace)   
 **pipeline**:  model on **PC -->   ONNX  ---> model on ncnn(.bin,,param) --> inference on Android**  
 
+## cost_time(only once)
+item | PC(i7 8700 500*300) |  Android 模拟 600*400 
+-|-|-
+load_model | 5ms | 35ms |
+infer_time | 192ms | 190ms |
+decode_time | 0ms | 1ms |
+
 ## organization
 using **ncnn** and **opencv** on android  
 the sim-overall android-organization is here
